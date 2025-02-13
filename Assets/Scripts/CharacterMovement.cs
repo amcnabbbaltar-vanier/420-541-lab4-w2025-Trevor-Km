@@ -102,6 +102,8 @@ public class CharacterMovement : MonoBehaviour
         moveX = Input.GetAxis("Horizontal"); // Get horizontal movement input
         moveZ = Input.GetAxis("Vertical");   // Get vertical movement input
 
+      
+
         // Register a jump request if the player presses the Jump button
         if (Input.GetButtonDown("Jump"))
         {
